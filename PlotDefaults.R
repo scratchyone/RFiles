@@ -1,0 +1,6 @@
+suppressPackageStartupMessages(library(tidyverse))
+library(scales)
+library(ggthemes)
+library(gridExtra)
+theme_set(theme_wsj())
+update_geom_defaults("line", list(colour = "tan2"))
