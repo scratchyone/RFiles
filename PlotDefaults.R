@@ -1,3 +1,4 @@
+source("https://raw.githubusercontent.com/scratchyone/RFiles/main/Functions.R")
 if (!require("pacman")) install.packages("pacman", repos = 'http://cran.us.r-project.org')
 pacman::p_load(tidyverse, scales, ggthemes, gridExtra, extrafont)
 library(tidyverse)
