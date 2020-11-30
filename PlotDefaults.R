@@ -1,11 +1,12 @@
 source("https://raw.githubusercontent.com/scratchyone/RFiles/main/Functions.R")
 if (!require("pacman")) install.packages("pacman", repos = 'http://cran.us.r-project.org')
-pacman::p_load(tidyverse, scales, ggthemes, gridExtra, extrafont)
+pacman::p_load(tidyverse, scales, ggthemes, gridExtra, extrafont, patchwork)
 library(tidyverse)
 library(scales)
 library(ggthemes)
 library(gridExtra)
 library(extrafont)
+library(patchwork)
 update_geom_defaults("line", list(colour = "tan2", size = 0.9))
 update_geom_defaults("text", list(family = "IBM Plex Sans", fontface = "bold"))
 theme_scrat <- function() {
