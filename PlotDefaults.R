@@ -18,7 +18,11 @@ theme_scrat <- function() {
           plot.subtitle = element_text(family = "IBM Plex Sans", face = "plain", size = 20, colour = "#3d3d3d"),
           plot.background = element_rect(fill = "#fafafa"),
           plot.caption = element_text(family = "IBM Plex Sans", face = "plain", colour = "#919191", size = 18),
-          panel.background = element_rect(fill = NA)
+          panel.background = element_rect(fill = NA),
+          legend.background = element_rect(fill = NA),
+          legend.key = element_rect(fill = NA),
+          legend.text = element_text(size = 17, face = "bold", family = "IBM Plex Sans"),
+          legend.title = element_blank(),
         )
 }
 theme_set(theme_scrat())
